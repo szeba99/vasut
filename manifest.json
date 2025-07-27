@@ -1,0 +1,21 @@
+{
+  "name": "Vasúti Hangok",
+  "short_name": "Hangok",
+  "description": "Egy soundboard vasúti hangokkal.",
+  "start_url": "/index.html",
+  "display": "standalone",  /* Az alkalmazás teljes képernyős lesz */
+  "background_color": "#1a1a2e",  /* Háttér szín */
+  "theme_color": "#00aaff",  /* Alkalmazás színe */
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

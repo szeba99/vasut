@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <title>Vasúti hangok</title>
+</head>
+<body>
+  <!-- Hangok listája, js -->
+	<script> 
+	const lista1 = [
+  		'Máv Szignál',
+  		'Máv Intercity Szignál',
+  		'Régi Intercity Szignál',
+  		'Régi Eurocity',
+  		'Railjet Euronight Eurocity',
+		'GYSEV',
+		'CFR Tájékoztatás',
+		'Utastájékoztató1',
+		'Utastájékoztató2',
+		'Vonat Indul Székesfehérvárra',
+		'A 2. vágányra vonat érkezik',
+		'Lassan Tolják',
+		'Menetzaj',
+		'KerékKattogás',
+		'Fékcsikorgás',
+		'Kürt',
+		'Vasúti átjáró',
+		'Autós Forgalmi Dugó',
+		'Kutyaugatás',
+		'Falusi Háttérzaj'
+		
+		];
+	</script>
+	
+
+  <!-- Az oldal tartalma itt következik -->
+
+
+
+
+
+	<div id="button-container"></div> <!-- Itt fognak megjelenni a gombok -->
+
+
+
+
+
+<!-- Az oldal tartalma itt ér véget -->
+
+	<script src="script.js"></script>
+	<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then((registration) => {
+        console.log('Service Worker regisztrálva:', registration);
+      })
+      .catch((error) => {
+        console.log('Service Worker hiba:', error);
+      });
+  }
+</script>
+
+
+</body>
+</html>
