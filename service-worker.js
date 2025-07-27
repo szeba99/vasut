@@ -3,12 +3,12 @@ self.addEventListener('install', (event) => {
     caches.open('soundboard-cache').then((cache) => {
       return cache.addAll([
         '/',
-        '/index.html',
-        '/style.css',
-        '/script.js',
-        '/sounds/*',
-        '/icons/icon-192x192.png',
-        '/icons/icon-512x512.png'
+        'szeba99.github.io/vasut/index.html',
+        'szeba99.github.io/vasut/style.css',
+        'szeba99.github.io/vasut/script.js',
+        'szeba99.github.io/vasut/sounds/*',
+        'szeba99.github.io/vasut/icons/icon-192x192.png',
+        'szeba99.github.io/vasut/icons/icon-512x512.png'
       ]);
     })
   );
