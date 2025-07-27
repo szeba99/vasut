@@ -6,7 +6,7 @@ self.addEventListener('install', (event) => {
         '/index.html',
         '/style.css',
         '/script.js',
-        '/sounds/Máv Szignál.mp3',       // Egyedi fájlok hozzáadása
+        '/sounds/Máv Szignál.mp3',
         '/sounds/Máv Intercity Szignál.mp3',
         '/sounds/Régi Intercity Szignál.mp3',
         '/sounds/Régi Eurocity.mp3',
@@ -33,12 +33,10 @@ self.addEventListener('install', (event) => {
   );
 });
 
-
-
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((response) => {
-      return response || fetch(event.request);
+      return response || fetch(event.request);  // Ha nincs a cache-ben, próbáld meg letölteni
     })
   );
 });
