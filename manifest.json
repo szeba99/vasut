@@ -2,7 +2,7 @@
   "name": "Vasúti Hangok",
   "short_name": "Hangok",
   "description": "Egy soundboard vasúti hangokkal.",
-  "start_url": "/index.html",
+  "start_url": "https://szeba99.github.io/vasut/",
   "display": "standalone",  /* Az alkalmazás teljes képernyős lesz */
   "background_color": "#1a1a2e",  /* Háttér szín */
   "theme_color": "#00aaff",  /* Alkalmazás színe */
